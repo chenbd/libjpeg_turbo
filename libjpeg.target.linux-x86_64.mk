@@ -440,6 +440,9 @@ LOCAL_SHARED_LIBRARIES := \
 	libstlport \
 	libdl
 
+### Set directly by aosp_build_settings.
+LOCAL_CLANG := false
+
 # Add target alias to "gyp_all_modules" target.
 .PHONY: gyp_all_modules
 gyp_all_modules: third_party_libjpeg_turbo_libjpeg_gyp
