@@ -59,6 +59,8 @@ LOCAL_SRC_FILES += \
 		jdatadst-tj.c \
 		jdatasrc-tj.c \
 		transupp.c \
+		jdtrans.c \
+		jctrans.c \
 
 
 # Flags passed to both C and C++ files.
